@@ -5,7 +5,7 @@ import seaborn as sns
 from scipy import stats
 from sklearn.preprocessing import LabelEncoder
 
-iris = pd.read_csv('C:/Users/utilisateur/Documents/microsoft_ia/traitement/iris.csv', sep=',')
+iris = pd.read_csv('donnees//iris.csv', sep=',')
 
 #longueur_sepal
 #largeur_sepal
