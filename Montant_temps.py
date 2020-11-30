@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #lire csv
-montant = pd.read_csv('C:/Users/utilisateur/Documents/microsoft_ia/traitement/Montant_temps.csv', sep=',')
+montant = pd.read_csv('donnees//Montant_temps.csv', sep=',')
 
 Y = montant.iloc[:,0].values
 
