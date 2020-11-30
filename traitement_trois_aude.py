@@ -6,7 +6,7 @@ import numpy as np
 # Chargez ces données puis en utilisant les outils nécessaires appliquez la mesure de tendance centrale sur ces données.
 
 #lire csv
-tendance = pd.read_csv('C:/Users/utilisateur/Documents/microsoft_ia/traitement/tendance_centrale.csv', sep=',')
+tendance = pd.read_csv('donnees/tendance_centrale.csv', sep=',')
 
 #moyenne
 #age_mean = tendance.Age.mean()
