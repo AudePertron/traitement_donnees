@@ -5,17 +5,17 @@ import matplotlib as mp
 import json
 
 #lire csv
-credit_csv = pd.read_csv('C:/Users/utilisateur/Documents/microsoft_ia/traitement/credit_immo.csv', sep=',')
+credit_csv = pd.read_csv('donnees/credit_immo.csv', sep=',')
 print(credit_csv.head())
 
 #lire json
-with open('C:/Users/utilisateur/Documents/microsoft_ia/traitement/credit_immo.json') as json_data:
+with open('donnees/credit_immo.json') as json_data:
     credit_json = json.load(json_data)
     print(credit_json)
 
 #lire xls
 df = pd.read_excel
-credit_xls = pd.read_excel('C:/Users/utilisateur/Documents/microsoft_ia/traitement/credit_immo.xls')
+credit_xls = pd.read_excel('donnees/credit_immo.xls')
 print(credit_xls.head())
 
 
