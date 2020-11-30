@@ -7,3 +7,5 @@ Le fichier interface et main sont des embryons de l'interface graphique. L'inter
 
 Les fichiers de travail sont les différents fichiers traitement et le fichier montant temps.
 
+Ci-dessous le graphe de montant temps
+![graphe](images/MontantTemps_1.png)
