@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 #lire csv
-credit_csv = pd.read_csv('C:/Users/utilisateur/Documents/microsoft_ia/traitement/credit_immo.csv', sep=',')
+credit_csv = pd.read_csv('donnees/credit_immo.csv', sep=',')
 #print(credit_csv)
 
 X=credit_csv.iloc[:,-9:-1].values
